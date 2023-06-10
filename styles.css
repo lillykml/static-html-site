@@ -219,3 +219,46 @@ button{
     border-radius: 15px;
     margin-bottom: 20px;
 }
+
+/*Footer*/
+#footer-container{
+    background-color: black;
+    color: white;
+    border-radius: 50px 50px 0 0;
+    margin: 0 50px;
+    padding: 60px 50px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:rgb(119, 119, 119);
+    display: block;
+    padding-top: 10px;
+}
+
+.footer-link:hover{
+    color: rgb(117,251,161);
+}
+
+#footer-bottom {
+    padding-top: 100px;
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+}
+
+#footer-bottom>p{
+    font-size: 14px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#footer-bottom>.footer-link{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+#footer-bottom>a>i{
+    color: white;
+    font-size: 20px;
+}
