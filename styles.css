@@ -2,9 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 
+/*General*/
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 70px 50px 0px 50px;
+}
+
+.coloured-container{
+    border-radius: 20px;
+    padding: 70px;
+}
+
+.black-container{
+    background-color: black;
+    color: white;
+}
+
+.grey-container{
+    background-color: rgb(245,245,245);
+}
+
+
 /*Navigation Bar*/
 .navbar {
-    padding:20px 50px;
+    padding:20px 70px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -22,19 +48,6 @@
 }
 
 /*General*/
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 70px;
-}
-
-.left {
-    flex: 1;
-}
-
-.right {
-    flex: 1;
-}
 
 h1{
     font-family: "Baskerville", serif;
@@ -108,15 +121,6 @@ button{
 }
 
 /* About us*/
-.grey-container{
-    background-color: rgb(245,245,245);
-    border-radius: 20px;
-    padding: 30px;
-}
-
-.left-text{
-    margin: 70px 30px 0 50px;
-}
 
 #contact{
     font-size: 18px;
@@ -124,19 +128,13 @@ button{
 }
 
 /*Solutions*/
-#solutions {
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    padding: 30px;
-}
 
 .green-text{
     color: rgb(117,251,161);
 }
 
 .card{
-    padding: 50px 140px;
+    padding: 50px 120px;
     margin: 20px;
     border-radius: 40px;
     text-align: center;
