@@ -27,27 +27,7 @@ body {
     background-color: rgb(245,245,245);
 }
 
-
-/*Navigation Bar*/
-.navbar {
-    padding:20px 70px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: rgb(94, 94, 94);
-}
-
-.logo{
-    width:80%;
-    object-fit: cover;
-    padding-right: 50px;
-}
-
-.nav-item{
-    padding-left: 20px;
-}
-
-/*General*/
+/*Fonts*/
 
 h1{
     font-family: "Baskerville", serif;
@@ -83,6 +63,15 @@ i{
     margin-left: 5px;
 }
 
+.green-text{
+    color: rgb(117,251,161);
+}
+
+.grey-text{
+    color: rgb(172,172,172);
+}
+
+/*Buttons*/
 button{
     border-radius: 8px;
     font-size: 18px;
@@ -114,6 +103,26 @@ button{
     background-color:black;
 }
 
+
+/*Navigation Bar*/
+.navbar {
+    padding:20px 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+}
+
+.logo{
+    width:80%;
+    object-fit: cover;
+    padding-right: 50px;
+}
+
+.nav-item{
+    padding-left: 20px;
+}
+
 /*Hero Section*/
 #page-title{
     font-size: 86px;
@@ -121,18 +130,12 @@ button{
 }
 
 /* About us*/
-
 #contact{
     font-size: 18px;
     font-weight: 700;
 }
 
 /*Solutions*/
-
-.green-text{
-    color: rgb(117,251,161);
-}
-
 .card{
     padding: 50px 120px;
     margin: 20px;
@@ -168,19 +171,15 @@ button{
 .full-width-container{
     flex: 1;
 }
-.grey-text{
-    color: rgb(172,172,172);
-}
 
 .vision-text{
     text-align: center;
 }
 
 /*Resources*/
-.col-lg-4{
-    padding: 30px;
+#main-post {
+    margin: 40px 0;
 }
-
 .author{
     font-weight: 400;
     font-size: 14px;
